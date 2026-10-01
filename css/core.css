@@ -170,6 +170,13 @@ h3.big{font-family:var(--disp);font-weight:200;font-size:clamp(1.35rem,2.5vw,2.1
 .rung span{font-family:var(--disp);font-size:9px;letter-spacing:.34em;color:var(--stone)}
 .rung i{font-style:normal;font-size:13px;color:var(--dim);line-height:1.7;margin-top:4px}
 
+/* roadmap cities */
+.cities{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:22px;background:var(--line2)}
+.city{background:var(--black);padding:clamp(22px,3vw,32px)}
+.city b{display:block;font-family:var(--disp);font-weight:300;font-size:11px;letter-spacing:.3em;color:var(--gold);margin-bottom:18px}
+.city h4{font-family:var(--disp);font-weight:300;font-size:14px;letter-spacing:.26em;color:var(--white);margin-bottom:12px}
+.city p{font-size:14px;line-height:1.8;color:var(--txt)}
+
 /* team */
 .team{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:clamp(40px,5vw,62px);background:var(--line2)}
 .member{background:var(--black);padding:clamp(26px,3vw,38px)}
@@ -215,7 +222,7 @@ footer{padding:26px var(--pad);border-top:1px solid var(--line2)}
   #who .two{grid-template-columns:1fr}
   .two.rev .shot{order:0}
   #rail{display:none}
-  .ladder,.team,.mails{grid-template-columns:1fr}
+  .ladder,.team,.mails,.cities{grid-template-columns:1fr}
   .stats{grid-template-columns:1fr;gap:34px}
   .pgrid{grid-template-columns:repeat(2,1fr);gap:26px}
   h2{max-width:none}
